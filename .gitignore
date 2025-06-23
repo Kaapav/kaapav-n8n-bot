@@ -1,0 +1,14 @@
+# Ignore env files containing secrets
+.env
+.env.*
+
+# Ignore local backup or data volumes
+n8n_data/
+backups/
+
+# NodeJS/OS junk (just in case)
+node_modules/
+.DS_Store
+*.log
+*.tar.gz
+*.zip
